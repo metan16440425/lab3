@@ -26,5 +26,11 @@ public class ArrayTests {
     
   }
 
+  @Test
+  public void testAverageWithoutLowest(){
+    double[] array={1.0,2.0,2.0,1.0};
+    assertEquals(2.0, ArrayExamples.averageWithoutLowest(array),1e-15);
+  }
+
 
 }
